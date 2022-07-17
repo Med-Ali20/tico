@@ -1,0 +1,16 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;    
+}
+
+.cardDescription {
+    width: 100%;
+    background: #15B873;
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 5px 3rem;
+}

@@ -1,0 +1,93 @@
+.topicPage {
+    max-width: 92rem;
+    margin: 0 auto;
+    padding-top: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topicHeader {
+    background: #12a065cc;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin: 1rem 0;
+    padding: 0 2rem;
+    width: 100%;
+
+    border-radius: 3px;
+}
+
+.topicHeaderText {
+    font-size: 2.7rem;
+    margin-left: auto;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.877);
+    text-align: right;
+    
+}
+
+.date {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: 300;
+
+}
+
+
+.topicBody {
+    width: 100%;
+    overflow: hidden;
+}
+
+.topicParagraph {
+    font-size: 2rem;
+    text-align: right;
+    background: #c5c5c525;
+    opacity: 0.8;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.registerLink {
+    font-size: 2rem;
+    background: #0e5779;
+    color: #e2e2e2;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 1.2rem 6rem;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+    display: block;
+    width: 30rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+.registerLink:hover {
+    filter: brightness(110%);
+}
+
+.topicPhotos {
+    background: #c5c5c525;
+    padding: 2rem;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    place-content: center;
+    grid-gap: 1rem;
+}
+
+.topicPhoto {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
